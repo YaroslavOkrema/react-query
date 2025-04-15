@@ -1,10 +1,17 @@
 import { useQuery } from '@tanstack/react-query';
-import { todoListApi } from '../../shared/api/TodoListApi';
+import { todoListApi } from '../../shared/api/TodoListApi/todoListApi.ts';
+import { useState } from 'react';
 
 export const TodoList = () => {
-  const { data, error, isPending } = useQuery({
-    queryKey: ['tasks', 'list'],
-    queryFn: todoListApi.getTodoList,
+  const [page, setPage] = useState(1);
+
+  const {
+    data: todoItems,
+    error,
+    isPending,
+  } = useQuery({
+    queryKey: ['tasks', 'list', { page }],
+    queryFn: (meta) => todoListApi.getTodoList({ page }, meta),
   });
 
   if (isPending) {
@@ -16,9 +23,31 @@ export const TodoList = () => {
   }
 
   return (
-    <div>
-      <h1>List</h1>
-      {data?.map((todo) => <div key={todo.id}>{todo.text}</div>)}
+    <div className="p-5 mx-auto max-w-[1200px] mt-10">
+      <h1 className="text-3xl font-bold underline mb-5">List</h1>
+      <div className="flex flex-col gap-4">
+        {todoItems?.data.map((todo) => (
+          <div className="border border-slate-300 rounded p-3" key={todo.id}>
+            {todo.text}
+          </div>
+        ))}
+      </div>
+      <div className="flex gap-2 mt-4">
+        <button
+          onClick={() => setPage((page) => Math.max(page - 1, 0))}
+          className="p-3 rounded border border-teal-500"
+        >
+          prev
+        </button>
+        <button
+          onClick={() =>
+            setPage((page) => Math.min(page + 1, todoItems?.pages))
+          }
+          className="p-3 rounded border border-teal-500"
+        >
+          next
+        </button>
+      </div>
     </div>
   );
 };
