@@ -1,104 +1,597 @@
 {
+  "users": [
+    {
+      "id": "1",
+      "login": "alice",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "login": "bob",
+      "password": "secure456"
+    },
+    {
+      "id": "3",
+      "login": "carol",
+      "password": "mypassword789"
+    }
+  ],
   "tasks": [
-    { "id": "1", "text": "поїсти", "done": false },
-    { "id": "2", "text": "погуляти з собакою", "done": false },
-    { "id": "3", "text": "купити хліб", "done": false },
-    { "id": "4", "text": "помити машину", "done": false },
-    { "id": "5", "text": "зробити домашку", "done": false },
-    { "id": "6", "text": "прибрати в кімнаті", "done": false },
-    { "id": "7", "text": "викинути сміття", "done": false },
-    { "id": "8", "text": "почитати книгу", "done": false },
-    { "id": "9", "text": "позайматись спортом", "done": false },
-    { "id": "10", "text": "відповісти на повідомлення", "done": false },
-    { "id": "11", "text": "приготувати вечерю", "done": false },
-    { "id": "12", "text": "перевірити пошту", "done": false },
-    { "id": "13", "text": "розібрати речі", "done": false },
-    { "id": "14", "text": "замовити воду", "done": false },
-    { "id": "15", "text": "полити квіти", "done": false },
-    { "id": "16", "text": "зателефонувати мамі", "done": false },
-    { "id": "17", "text": "навчитись новому слову", "done": false },
-    { "id": "18", "text": "подивитися серіал", "done": false },
-    { "id": "19", "text": "спланувати день", "done": false },
-    { "id": "20", "text": "переписати конспект", "done": false },
-    { "id": "21", "text": "перевірити завдання", "done": false },
-    { "id": "22", "text": "заплатити за інтернет", "done": false },
-    { "id": "23", "text": "почистити взуття", "done": false },
-    { "id": "24", "text": "зробити зарядку", "done": false },
-    { "id": "25", "text": "почитати статтю", "done": false },
-    { "id": "26", "text": "переписати код", "done": false },
-    { "id": "27", "text": "відредагувати фото", "done": false },
-    { "id": "28", "text": "додати задачі", "done": false },
-    { "id": "29", "text": "оновити резюме", "done": false },
-    { "id": "30", "text": "перевірити банківський рахунок", "done": false },
-    { "id": "31", "text": "віднести документи", "done": false },
-    { "id": "32", "text": "сходити на пошту", "done": false },
-    { "id": "33", "text": "почати новий проєкт", "done": false },
-    { "id": "34", "text": "записати ідеї", "done": false },
-    { "id": "35", "text": "перевірити новини", "done": false },
-    { "id": "36", "text": "розпланувати тиждень", "done": false },
-    { "id": "37", "text": "почитати документацію", "done": false },
-    { "id": "38", "text": "переписати план", "done": false },
-    { "id": "39", "text": "налаштувати будильник", "done": false },
-    { "id": "40", "text": "перевірити завантаження", "done": false },
-    { "id": "41", "text": "відвідати друга", "done": false },
-    { "id": "42", "text": "зайнятись хобі", "done": false },
-    { "id": "43", "text": "створити список покупок", "done": false },
-    { "id": "44", "text": "перевірити календар", "done": false },
-    { "id": "45", "text": "перезавантажити роутер", "done": false },
-    { "id": "46", "text": "оновити додатки", "done": false },
-    { "id": "47", "text": "налаштувати світло", "done": false },
-    { "id": "48", "text": "пройти курс", "done": false },
-    { "id": "49", "text": "розібрати файли", "done": false },
-    { "id": "50", "text": "почистити кеш", "done": false },
-    { "id": "51", "text": "вимити підлогу", "done": false },
-    { "id": "52", "text": "прочитати нову главу", "done": false },
-    { "id": "53", "text": "зробити резервну копію", "done": false },
-    { "id": "54", "text": "запланувати зустріч", "done": false },
-    { "id": "55", "text": "вивчити нову команду", "done": false },
-    { "id": "56", "text": "зняти відео", "done": false },
-    { "id": "57", "text": "додати коментарі до коду", "done": false },
-    { "id": "58", "text": "налаштувати середовище", "done": false },
-    { "id": "59", "text": "перевірити погоду", "done": false },
-    { "id": "60", "text": "відновити доступ", "done": false },
-    { "id": "61", "text": "приготувати каву", "done": false },
-    { "id": "62", "text": "запустити збірку", "done": false },
-    { "id": "63", "text": "створити нотатку", "done": false },
-    { "id": "64", "text": "написати пост", "done": false },
-    { "id": "65", "text": "створити репозиторій", "done": false },
-    { "id": "66", "text": "синхронізувати дані", "done": false },
-    { "id": "67", "text": "вивчити бібліотеку", "done": false },
-    { "id": "68", "text": "написати звіт", "done": false },
-    { "id": "69", "text": "розв’язати задачу", "done": false },
-    { "id": "70", "text": "відпочити", "done": false },
-    { "id": "71", "text": "пограти в гру", "done": false },
-    { "id": "72", "text": "зробити скріншот", "done": false },
-    { "id": "73", "text": "заповнити анкету", "done": false },
-    { "id": "74", "text": "оновити профіль", "done": false },
-    { "id": "75", "text": "налаштувати звук", "done": false },
-    { "id": "76", "text": "перевірити паролі", "done": false },
-    { "id": "77", "text": "почати читати книгу", "done": false },
-    { "id": "78", "text": "спробувати новий рецепт", "done": false },
-    { "id": "79", "text": "додати задачу", "done": false },
-    { "id": "80", "text": "спланувати бюджет", "done": false },
-    { "id": "81", "text": "написати листа", "done": false },
-    { "id": "82", "text": "відповісти на фідбек", "done": false },
-    { "id": "83", "text": "сходити на прогулянку", "done": false },
-    { "id": "84", "text": "змінити пароль", "done": false },
-    { "id": "85", "text": "запустити таймер", "done": false },
-    { "id": "86", "text": "написати повідомлення", "done": false },
-    { "id": "87", "text": "створити подію", "done": false },
-    { "id": "88", "text": "перевірити цілі", "done": false },
-    { "id": "89", "text": "розпланувати навчання", "done": false },
-    { "id": "90", "text": "відправити файл", "done": false },
-    { "id": "91", "text": "завантажити оновлення", "done": false },
-    { "id": "92", "text": "налаштувати браузер", "done": false },
-    { "id": "93", "text": "вивчити гарячу клавішу", "done": false },
-    { "id": "94", "text": "порефлексувати", "done": false },
-    { "id": "95", "text": "написати щоденник", "done": false },
-    { "id": "96", "text": "зробити скан", "done": false },
-    { "id": "97", "text": "перевірити помилки", "done": false },
-    { "id": "98", "text": "запустити тест", "done": false },
-    { "id": "99", "text": "вимкнути звук", "done": false },
-    { "id": "100", "text": "закрити вкладки", "done": false }
+    {
+      "id": "1",
+      "text": "Complete project report",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "text": "Prepare for presentation",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "text": "Schedule meeting with team",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "4",
+      "text": "Review budget proposal",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "5",
+      "text": "Organize files",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "6",
+      "text": "Respond to client emails",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "7",
+      "text": "Update website content",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "8",
+      "text": "Plan team outing",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "9",
+      "text": "Fix login bug",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "10",
+      "text": "Draft contract",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "11",
+      "text": "Team feedback session",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "12",
+      "text": "Design newsletter template",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "13",
+      "text": "Arrange travel itinerary",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "14",
+      "text": "Conduct market research",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "15",
+      "text": "Finalize campaign strategy",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "16",
+      "text": "Compile sales data",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "17",
+      "text": "Update CRM system",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "18",
+      "text": "Organize data files",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "19",
+      "text": "Write blog post",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "20",
+      "text": "Prepare quarterly review",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "21",
+      "text": "New feature brainstorming",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "22",
+      "text": "Secure database",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "23",
+      "text": "Prototype mockup",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "24",
+      "text": "Analyze user feedback",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "25",
+      "text": "Optimize performance",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "26",
+      "text": "Update application UI",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "27",
+      "text": "Code review session",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "28",
+      "text": "Prepare press release",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "29",
+      "text": "Conduct A/B testing",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "30",
+      "text": "Plan marketing campaign",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "31",
+      "text": "Update user manual",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "32",
+      "text": "Test new software modules",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "33",
+      "text": "Participate in conference",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "34",
+      "text": "Review code contributions",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "35",
+      "text": "Manage inventory",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "36",
+      "text": "Launch social media ads",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "37",
+      "text": "Customer feedback analysis",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "38",
+      "text": "Weekly team meeting",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "39",
+      "text": "Emergency system patch",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "40",
+      "text": "Contingency planning",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "41",
+      "text": "Update API documentation",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "42",
+      "text": "Deploy app update",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "43",
+      "text": "Participate in webinar",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "44",
+      "text": "Refactor backend code",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "45",
+      "text": "Implement user feedback",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "46",
+      "text": "Conduct performance reviews",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "47",
+      "text": "Plan office renovations",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "48",
+      "text": "Organize charity event",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "49",
+      "text": "Review legal documents",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "50",
+      "text": "Enhance product features",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "51",
+      "text": "Negotiate vendor contracts",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "52",
+      "text": "Develop training schedule",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "53",
+      "text": "Set up project timelines",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "54",
+      "text": "Analyze competitor strategies",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "55",
+      "text": "Redesign packaging",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "56",
+      "text": "Audit server logs",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "57",
+      "text": "Create database backups",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "58",
+      "text": "Write release notes",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "59",
+      "text": "Optimize search algorithms",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "60",
+      "text": "Onboard new team members",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "61",
+      "text": "Conduct product demo",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "62",
+      "text": "Design new logo",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "63",
+      "text": "Prepare internal newsletter",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "64",
+      "text": "Evaluate supplier proposals",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "65",
+      "text": "Organize training workshops",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "66",
+      "text": "Distribute marketing materials",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "67",
+      "text": "Coordinate with partners",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "68",
+      "text": "Update risk management plan",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "69",
+      "text": "Prepare financial statements",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "70",
+      "text": "Host virtual meetup",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "71",
+      "text": "Run security scan",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "72",
+      "text": "Configure server settings",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "73",
+      "text": "Backup cloud storage",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "74",
+      "text": "Test disaster recovery plan",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "75",
+      "text": "Host client webinar",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "76",
+      "text": "Conduct usability testing",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "77",
+      "text": "Redesign landing page",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "78",
+      "text": "Launch product survey",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "79",
+      "text": "Host focus group",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "80",
+      "text": "Plan holiday party",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "81",
+      "text": "Apply for new patent",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "82",
+      "text": "Benchmark competitors",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "83",
+      "text": "Develop new pricing model",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "84",
+      "text": "Train customer support",
+      "done": true,
+      "userId": "2"
+    },
+    {
+      "id": "85",
+      "text": "Develop website analytics",
+      "done": false,
+      "userId": "2"
+    },
+    {
+      "id": "86",
+      "text": "Encrypt sensitive data",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "87",
+      "text": "Manage DNS settings",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "88",
+      "text": "Upgrade system hardware",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "89",
+      "text": "Create test scenarios",
+      "done": false,
+      "userId": "3"
+    },
+    {
+      "id": "90",
+      "text": "Plan disaster recovery test",
+      "done": true,
+      "userId": "3"
+    },
+    {
+      "id": "91",
+      "text": "Implement data retention policy",
+      "done": false,
+      "userId": "1"
+    },
+    {
+      "id": "92",
+      "text": "Coordinate logistics",
+      "done": true,
+      "userId": "1"
+    },
+    {
+      "id": "L28NIBqsaSh6Hj5P2skfo",
+      "done": false,
+      "text": "",
+      "userId": "1"
+    },
+    {
+      "id": "bSQ9N34hoRdQmC01-yzQc",
+      "done": false,
+      "text": "new",
+      "userId": "2"
+    },
+    {
+      "id": "cJZwHIJsY0i_1gKq1mg2O",
+      "done": false,
+      "text": "afsdfa. Owner: alice",
+      "userId": "1"
+    },
+    {
+      "id": "AghTjMwJoWlw_PZbPIVgw",
+      "done": false,
+      "text": "asdfasdf. Owner: alice",
+      "userId": "1"
+    }
   ]
 }
