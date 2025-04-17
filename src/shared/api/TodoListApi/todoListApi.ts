@@ -19,16 +19,13 @@ type TodoDto = {
 };
 
 export const todoListApi = {
-  getTodoListQueryOptions: ({ page }: { page: number }) => {
+  getTodoListQueryOptions: () => {
     return queryOptions({
-      queryKey: ['tasks', 'list', { page }],
+      queryKey: ['tasks', 'list'],
       queryFn: (meta) =>
-        jsonApiInstance<PaginatedResult<TodoDto>>(
-          `/tasks?_page=${page}&_per_page=10`,
-          {
-            signal: meta.signal,
-          }
-        ),
+        jsonApiInstance<TodoDto[]>(`/tasks`, {
+          signal: meta.signal,
+        }),
     });
   },
 
